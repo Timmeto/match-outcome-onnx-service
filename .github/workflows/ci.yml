@@ -1,0 +1,13 @@
+name: CI
+on: [push, pull_request]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-java@v4
+        with: { distribution: temurin, java-version: '17' }
+      - run: if [ -f "build.gradle.kts" ]; then ./gradlew build || gradle build; fi
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.11' }
+      - run: if [ -f "requirements.txt" ]; then python -m pip install -r requirements.txt; fi

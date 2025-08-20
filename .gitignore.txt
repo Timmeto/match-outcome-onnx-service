@@ -1,0 +1,25 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Daten & Modelle (nicht versionieren)
+data/*
+models/*
+!data/README.md
+
+# große Dateien
+*.csv
+*.zip
+*.onnx
+
+# Gradle/Kotlin
+.gradle/
+build/
+out/
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
