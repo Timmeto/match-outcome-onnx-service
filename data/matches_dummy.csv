@@ -1,0 +1,8 @@
+win, map, patch, queue, top_champ, jungle_champ, mid_champ, bot_champ, support_champ, avg_mmr, avg_kda
+1,SummonersRift,14.7,ranked,Garen,LeeSin,Ahri,Caitlyn,Lux,1500,2.5
+0,SummonersRift,14.7,ranked,Darius,Amumu,Zed,Ezreal,Nami,1520,1.8
+1,SummonersRift,14.8,ranked,Shen,JarvanIV,Orianna,Ashe,Thresh,1480,3.1
+0,SummonersRift,14.8,ranked,Teemo,Warwick,Yasuo,Jinx,Leona,1495,2.0
+1,SummonersRift,14.9,ranked,Malphite,Sejuani,Annie,Draven,Morgana,1510,2.7
+1,SummonersRift,14.9,ranked,Aurora,JarvanIV,Mel,Smolder,Thresh,1510,2.9
+0,SummonersRift,14.9,ranked,Renekton,Urgot,Veigar,Yunara,Milio,1500,2.4
