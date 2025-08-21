@@ -42,7 +42,7 @@ else:
 # --- ONNX Export: to_onnx mit DataFrame-Sample (behält Spaltennamen) ---
 os.makedirs("models", exist_ok=True)
 sample = Xtr.head(1)              # DataFrame mit Spaltennamen!
-onnx_model = to_onnx(pipe, sample, target_opset=17)  # zipmap=False nicht nötig für simple LogReg
+onnx_model = to_onnx(pipe, sample, target_opset=17, options={"zipmap": False})  # zipmap=False nicht nötig für simple LogReg
 with open("models/match_baseline.onnx", "wb") as f:
     f.write(onnx_model.SerializeToString())
 print("Export -> models/match_baseline.onnx")
