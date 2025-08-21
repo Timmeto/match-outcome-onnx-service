@@ -1,0 +1,16 @@
+{
+  "categorical": [
+    "map",
+    "queue",
+    "top_champ",
+    "jungle_champ",
+    "mid_champ",
+    "bot_champ",
+    "support_champ"
+  ],
+  "numerical": [
+    "patch",
+    "avg_mmr",
+    "avg_kda"
+  ]
+}
